@@ -1,0 +1,17 @@
+﻿spring:
+	profiles:
+		active:
+		- dev
+--- 
+spring:
+	#开发环境
+	profiles: dev  
+	application:
+		name: microservicecloud-config-ax-dev
+--- 
+spring:
+	#测试环境
+	profiles: test  
+	application:
+		name: microservicecloud-config-ax-test
+#utf-8格式保存
